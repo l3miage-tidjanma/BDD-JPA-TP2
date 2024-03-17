@@ -1,4 +1,4 @@
-package main.java.fr.uga.l3miage.tp2.exo1.models;
+package fr.uga.l3miage.tp2.exo1.models;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -6,7 +6,7 @@ import javax.persistence.ManyToMany;
 import java.util.Set;
 
 @Entity
-public class Etudiant {
+public class EtudiantEntity {
     @Id
     private Long agalan;
 
@@ -15,5 +15,5 @@ public class Etudiant {
     private String email;
 
     @ManyToMany(mappedBy = "etudiants")
-    private Set<ClubSportif> clubs; // APourClubSportif
+    private Set<ClubSportifEntity> clubs; // APourClubSportif
 }
