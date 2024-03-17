@@ -5,7 +5,8 @@ import javax.persistence.*;
 @Entity
 @MappedSuperclass   // Permet de donner l’indication que la classe mère ne peut jamais être concrète
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
-public abstract class Employe {
+@Table(name = "Employe")
+public abstract class EmployeEntity {
     @Id
     private Long id;
 
