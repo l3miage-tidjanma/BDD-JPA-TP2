@@ -1,4 +1,4 @@
-package main.java.fr.uga.l3miage.tp2.exo2;
+package fr.uga.l3miage.tp2.exo2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
