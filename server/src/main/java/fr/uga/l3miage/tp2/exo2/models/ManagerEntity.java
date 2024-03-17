@@ -1,4 +1,4 @@
-package main.java.fr.uga.l3miage.tp2.exo2.models;
+package fr.uga.l3miage.tp2.exo2.models;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;
