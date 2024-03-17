@@ -15,5 +15,5 @@ public class DeveloperMiageEntity {
     private String email;
 
     @ManyToMany(mappedBy = "developers")
-    private Set<ProjetEntity> projets;
+    private Set<ProjetEntity> projets;  // APourProjet(s)
 }

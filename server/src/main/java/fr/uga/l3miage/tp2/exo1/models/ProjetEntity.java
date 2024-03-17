@@ -16,5 +16,5 @@ public class ProjetEntity {
     private String description;
 
     @ManyToMany
-    private Set<DeveloperMiageEntity> developers;
+    private Set<DeveloperMiageEntity> developers;   // APourDeveloppeur(s)
 }
