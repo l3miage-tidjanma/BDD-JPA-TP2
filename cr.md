@@ -1,0 +1,5 @@
+Dans le cas spécifique de l'exemple que tu as fourni, où nous avons des entités représentant des produits, des commandes et des catégories de produits, toutes les relations bidirectionnelles ne sont pas nécessairement importantes.
+
+Prenons l'exemple de la relation entre **`ProduitEntity`** et **`CommandeEntity`**. Si on a besoin de pouvoir accéder à la commande associée à un produit à partir d'une commande donnée, cette relation bidirectionnelle peut être utile. Cependant, si on n'a pas besoin de cette fonctionnalité dans ton application, on pourrait s'en passer et simplement récupérer les produits associés à une commande.
+
+En revanche, pour la relation entre **`ProduitEntity`** et **`CategorieDeProduitEntity`**, une relation bidirectionnelle peut être plus pertinente. Si on doit souvent récupérer tous les produits associés à une catégorie de produit ou vice versa, cette relation bidirectionnelle faciliterait l'accès à ces données dans les deux sens.
